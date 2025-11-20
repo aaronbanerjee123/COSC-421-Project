@@ -59,18 +59,18 @@ rq4 <- readRDS("output_data/data/processed/rq4_resilience_results.rds")
 
 ### Option 2: Reproduce Full Analysis
 
-Run scripts in sequence (takes ~40 minutes total):
+Run scripts in sequence (takes ~5 minutes total):
 ```r
-# 1. Download data (10-15 min)
+# 1. Download data (2 min)
 source("initialization_scripts/01_data_acquisition.R")
 
-# 2. Build networks (5-10 min)
+# 2. Build networks (1 min)
 source("initialization_scripts/02_network_construction.R")
 
-# 3. Run analysis (15-20 min)
+# 3. Run analysis (1 min)
 source("initialization_scripts/03_network_analysis.R")
 
-# 4. Create visualizations (5 min)
+# 4. Create visualizations (1 min)
 source("initialization_scripts/04_network_visualization.R")
 ```
 
